@@ -1,0 +1,269 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: dmsansopsz;
+    src: url(./dm-sans-cufonfonts-webfont/DMSans-Italic[opsz\,wght].woff);
+}
+
+@font-face {
+    font-family: dmsansbold;
+    src: url(./dm-sans-cufonfonts-webfont/DMSans-Bold.woff);
+}
+
+@font-face {
+    font-family: dmsansbi;
+    src: url(./dm-sans-cufonfonts-webfont/DMSans-BoldItalic.woff);
+}
+
+@font-face {
+    font-family: dmsansitalic;
+    src: url(./dm-sans-cufonfonts-webfont/DMSans-Italic.woff);
+}
+
+@font-face {
+    font-family: dmsansmedium;
+    src: url(./dm-sans-cufonfonts-webfont/DMSans-Medium.woff);
+}
+
+@font-face {
+    font-family: DMSans-MediumItalic;
+    src: url(./dm-sans-cufonfonts-webfont/DMSans-MediumItalic.woff);
+}
+
+@font-face {
+    font-family: DMSans-Regular;
+    src: url(./dm-sans-cufonfonts-webfont/DMSans-Regular.woff);
+}
+
+.heroSection {
+    background-image: url(./images/Object.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+
+}
+
+.content h1 {
+    color: white;
+    font-family: dmsansbold;
+    font-size: 70px;
+    margin-top: 130px;
+}
+
+.content p {
+    color: white;
+    font-family: dmsansitalic;
+    font-size: 20px;
+}
+
+.nav-item a {
+    text-transform: capitalize;
+    font-size: 15px !important;
+    color: white !important;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+
+.navbar-nav button {
+    background-color: #FFAC12;
+    color: black !important;
+
+}
+
+.content-1 {
+    color: black;
+    font-family: dmsansitalic;
+    font-size: 20px;
+    background-color: white;
+    height: 8vh;
+    width: 100%;
+    margin-bottom: -16px;
+    display: flex;
+    align-items: center;
+}
+
+.content-1 i {
+    color: #FFAC12;
+}
+
+.secondSection {
+    width: 100%;
+    background-color: white;
+    margin-top: 100px;
+}
+
+.secondSection .border {
+    height: 5px;
+    background: linear-gradient(90deg, #FFAC12 0%, #000000 94.96%);
+    width: 100px;
+}
+
+.imgcontent {
+    width: 100%;
+}
+
+.imgcontent h5 {
+    border: 2px solid #FFAC12;
+    width: 200px;
+}
+
+.imgcontent h2 {
+    font-size: 50px;
+    font-family: dmsansbold;
+}
+
+.imgcontent p {
+    font-family: dmsansitalic;
+    font-size: 18px;
+    opacity: 60%;
+    width: 418px;
+}
+
+.imgcontent button {
+    font-size: 17px;
+    color: white;
+    background-color: black;
+
+}
+
+.imgcontent i {
+    color: #FFAC12;
+}
+
+.thirdSection .border {
+    height: 5px;
+    background: linear-gradient(90deg, #FFAC12 0%, #000000 94.96%);
+    width: 100px;
+}
+
+.drop {
+    margin-top: 50px;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid #E4E4E4;
+
+}
+
+.btn:focus {
+    box-shadow: none;
+}
+
+.fourthSection .border {
+    height: 5px;
+    background: linear-gradient(90deg, #FFAC12 0%, #000000 94.96%);
+    width: 100px;
+}
+
+.card-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-footer img {
+    padding: 10px;
+}
+
+.card-footer a {
+    text-decoration: none;
+    color: black;
+}
+
+.card-footer .design {
+    border-left: 2px solid #E4E4E4;
+}
+
+.fifthSection {
+    color: white;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(225.52deg, #271A00 0.45%, rgba(0, 0, 0, 0.982162) 100.47%);
+
+}
+
+.test {
+    width: 350px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.fifthSection button {
+    background-color: #FFAC12;
+    color: black !important;
+
+}
+.fifthSection .bor{
+    text-align: center;
+    height: 5px;
+    width: 150px;
+    background: linear-gradient(90deg, #FFAC12 0%, rgba(0, 0, 0, 0.0001) 94.96%);
+}
+.sixthSection .bor{
+    text-align: center;
+    height: 2px;
+    width: 150px;
+    background: linear-gradient(90deg, #FFAC12 0%, #000000 94.96%);
+}
+.corosal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.corosal h2{
+    color: #000000;
+    font-size: 15px;
+}
+.corosal p{
+    font-size: 15px;
+    color: #979797;
+
+}
+.footerSection{
+    height: 100%;
+    background: linear-gradient(225.52deg, #271A00 0.45%, rgba(0, 0, 0, 0.982162) 45.25%);
+
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    color: white;
+    font-size: 42px;
+}
+.footer button {
+    background-color: #FFAC12;
+    font-size: 13px;
+    color: black !important;
+
+}
+.logo .icons{
+    display: flex;
+    width: 20%;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+.footerSection h5{
+    color: white;
+}
+.footerSection p{
+    color: #979797;
+    font-size: 15px;
+    line-height: 17.58px
+}
